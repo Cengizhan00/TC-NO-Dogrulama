@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CenkKoroglu\TCNoDogrulama\Controllers;
+namespace CengizHan\TcNoDogrulama\Controllers;
 
 use Flarum\Settings\SettingsRepositoryInterface;
 use Flarum\User\AssertPermissionTrait;
