@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CengizHan\\TcNoDogrulama;
+namespace CengizHan\TcNoDogrulama;
 
 use Flarum\Extend;
 
