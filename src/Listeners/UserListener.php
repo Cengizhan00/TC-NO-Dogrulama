@@ -1,6 +1,6 @@
 <?php
 
-namespace CenkKoroglu\TCNoDogrulama\Listeners;
+namespace CengizHan\TcNoDogrulama\Listeners;
 
 use Flarum\Api\Event\Serializing;
 use Flarum\Api\Serializer\UserSerializer;
