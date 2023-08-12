@@ -1,6 +1,6 @@
 <?php
 
-namespace CenkKoroglu\TCNoDogrulama\Controllers;
+namespace CengizHan\TcNoDogrulama\Controllers;
 
 use Flarum\User\User;
 use Flarum\User\UserRepository;
