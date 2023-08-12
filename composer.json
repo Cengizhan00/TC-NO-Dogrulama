@@ -1,0 +1,59 @@
+{
+    "name": "cengizhan/tc-no-dogrulama",
+    "description": "Valid tc identity number verification for Turkey",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "CengizHan",
+            "email": "yusuf27dkr@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CengizHan\\TcNoDogrulama\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tc No Dogrulama",
+            "category": "",
+            "icon": {
+                "name": "fas fa-user-check",
+                "color": "#fff",
+                "backgroundColor": "#00d5ff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+   
+
+   
+}
